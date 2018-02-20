@@ -1704,6 +1704,9 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# Display postprocessing
+lib64/libsdm-disp-apis.so
+
 # FM
 system_ext/lib/fm_helium.so
 system_ext/lib/libfm-hci.so

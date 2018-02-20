@@ -212,6 +212,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Livedisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service-sdm
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
