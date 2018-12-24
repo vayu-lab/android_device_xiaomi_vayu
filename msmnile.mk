@@ -147,6 +147,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.power.pasrmanager@1.0-impl \
     pasrservice
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
+
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
+
 # Kernel modules install path
 KERNEL_MODULES_INSTALL := dlkm
 KERNEL_MODULES_OUT := out/target/product/$(PRODUCT_NAME)/$(KERNEL_MODULES_INSTALL)/lib/modules
