@@ -50,6 +50,9 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/properties/vendor.prop
 #  Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
 TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
