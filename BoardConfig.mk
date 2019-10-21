@@ -47,4 +47,7 @@ TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/configs/properties/system_ext.prop
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/properties/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/properties/vendor.prop
 
+#  Assert
+TARGET_OTA_ASSERT_DEVICE := vayu,bhima
+
 -include vendor/xiaomi/vayu/BoardConfigVendor.mk
