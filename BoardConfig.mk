@@ -52,6 +52,7 @@ TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+TARGET_USE_QTI_BT_STACK := true
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
