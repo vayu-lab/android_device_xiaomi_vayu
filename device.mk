@@ -219,6 +219,7 @@ $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
 # Updateable apex
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# wifi
+# Wifi
 PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
     WifiOverlay
