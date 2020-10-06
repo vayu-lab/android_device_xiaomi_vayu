@@ -157,6 +157,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
 	vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-service \
+    android.hardware.health@2.1-impl \
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     capture.sh \
