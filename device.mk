@@ -211,6 +211,12 @@ PRODUCT_PACKAGES += \
 # Signapk
 PRODUCT_HOST_PACKAGES += \
     signapk
+	
+# VNDK
+PRODUCT_PACKAGES += \
+    libstdc++.vendor \
+    vndk-sp \
+    com.android.vndk.current.on_vendor
 
 # Sensors
 PRODUCT_COPY_FILES += \
