@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_vayu
+	
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.vayu
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE:=true
 TARGET_MOUNT_POINTS_SYMLINKS := false
