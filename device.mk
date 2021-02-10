@@ -352,6 +352,10 @@ PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio
+	
+# HIDL
+PRODUCT_PACKAGES += \
+    libhwbinder.vendor
 
 # Wifi
 PRODUCT_PACKAGES += \
