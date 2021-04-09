@@ -50,4 +50,9 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/properties/vendor.prop
 #  Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
+TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
+
+#Inherit from the proprietary version
 -include vendor/xiaomi/vayu/BoardConfigVendor.mk
