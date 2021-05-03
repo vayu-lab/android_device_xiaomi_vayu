@@ -218,6 +218,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.vayu
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.vayu
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
