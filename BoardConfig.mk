@@ -229,6 +229,17 @@ endif
 
 TARGET_USES_GRALLOC1 := true
 
+# Recovery
+BOARD_INCLUDE_RECOVERY_DTBO := true
+TARGET_RECOVERY_FSTAB := device/xiaomi/vayu/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USES_MKE2FS := true
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/vayu
+
 # Enable sensor multi HAL
 USE_SENSOR_MULTI_HAL := true
 
