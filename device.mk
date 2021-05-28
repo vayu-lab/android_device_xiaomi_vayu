@@ -347,6 +347,12 @@ $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
 # Updateable apex
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Wifi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
