@@ -209,6 +209,9 @@ TARGET_INIT_VENDOR_LIB := libinit_msm
 
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/xiaomi/vayu/bluetooth/include
+
 #Enable PD locater/notifier
 TARGET_PD_SERVICE_ENABLED := true
 
