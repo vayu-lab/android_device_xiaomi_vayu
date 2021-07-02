@@ -1,4 +1,4 @@
-DEVICE_PATH := device/xiaomi/bhima
+DEVICE_PATH := device/xiaomi/vayua
 BOARD_VENDOR := xiaomi
 
 # Security patch level
@@ -47,4 +47,4 @@ TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/configs/properties/system_ext.prop
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/properties/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/properties/vendor.prop
 
--include vendor/xiaomi/bhima/BoardConfigVendor.mk
+-include vendor/xiaomi/vayu/BoardConfigVendor.mk
