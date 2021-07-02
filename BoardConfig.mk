@@ -27,5 +27,9 @@ TARGET_USE_QTI_BT_STACK := true
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
 TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
 
+# Platform
+TARGET_BOARD_PLATFORM := msmnile
+BOARD_USES_QCOM_HARDWARE := true
+
 #Inherit from the proprietary version
 -include vendor/xiaomi/vayu/BoardConfigVendor.mk
