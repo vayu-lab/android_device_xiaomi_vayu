@@ -215,3 +215,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit vendor
 $(call inherit-product, vendor/xiaomi/bhima/bhima-vendor.mk)
+
+# Updateable apex
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
