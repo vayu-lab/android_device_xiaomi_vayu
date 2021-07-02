@@ -1,0 +1,4 @@
+#
+# ADDITIONAL SYSTEM_EXT BUILD PROPERTIES
+#
+persist.vendor.dpm.feature=11
