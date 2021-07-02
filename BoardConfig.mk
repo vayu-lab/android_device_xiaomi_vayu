@@ -51,7 +51,7 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/properties/vendor.prop
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth/include
 TARGET_USE_QTI_BT_STACK := true
 
 # Init
