@@ -41,10 +41,10 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml
 
 # Device Properties
-TARGET_ODM_PROP := $(DEVICE_PATH)/odm.prop
-TARGET_PRODUCT_PROP := $(DEVICE_PATH)/product.prop
-TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/system_ext.prop
-TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
+TARGET_ODM_PROP := $(DEVICE_PATH)/configs/properties/odm.prop
+TARGET_PRODUCT_PROP := $(DEVICE_PATH)/configs/properties/product.prop
+TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/configs/properties/system_ext.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/properties/system.prop
+TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/properties/vendor.prop
 
 -include vendor/xiaomi/bhima/BoardConfigVendor.mk
