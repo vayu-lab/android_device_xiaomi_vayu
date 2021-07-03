@@ -79,5 +79,8 @@ TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 #Inherit from the proprietary version
 -include vendor/xiaomi/vayu/BoardConfigVendor.mk
