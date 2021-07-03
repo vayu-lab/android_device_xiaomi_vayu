@@ -4,6 +4,8 @@ BOARD_VENDOR := xiaomi
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-03-01
 
+BOARD_DYNAMIC_PARTITION_ENABLE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
