@@ -170,6 +170,10 @@ PRODUCT_PACKAGES += \
 # Touchfeature
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature@1.0.vendor
+	
+# Consumerir
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-service.xiaomi_vayu
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE:=true
 TARGET_MOUNT_POINTS_SYMLINKS := false
