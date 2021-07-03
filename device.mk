@@ -157,6 +157,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
 	vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+	android.hardware.camera.provider@2.4-external \
+	android.hardware.camera.provider@2.4-impl \
+	android.hardware.camera.provider@2.4-legacy \
+	android.hardware.camera.provider@2.4-service_64 \
+	vendor.qti.hardware.camera.device@1.0 \
+	vendor.qti.hardware.camera.device@2.0 \
+	vendor.qti.hardware.camera.device@3.5
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service \
