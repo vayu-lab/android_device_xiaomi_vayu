@@ -166,6 +166,10 @@ PRODUCT_PACKAGES += \
 	vendor.qti.hardware.camera.device@1.0 \
 	vendor.qti.hardware.camera.device@2.0 \
 	vendor.qti.hardware.camera.device@3.5
+	
+# Consumerir
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-service.xiaomi_vayu
 
 # Health
 PRODUCT_PACKAGES += \
