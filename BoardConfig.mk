@@ -1,8 +1,8 @@
-DEVICE_PATH := device/xiaomi/vayua
+DEVICE_PATH := device/xiaomi/vayu
 BOARD_VENDOR := xiaomi
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-03-01
+VENDOR_SECURITY_PATCH := 2021-05-01
 
 BOARD_DYNAMIC_PARTITION_ENABLE := true
 
