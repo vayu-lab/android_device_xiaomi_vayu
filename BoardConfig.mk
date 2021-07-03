@@ -37,6 +37,9 @@ BOARD_USES_QCOM_HARDWARE := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
