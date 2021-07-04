@@ -8,6 +8,10 @@ $(call inherit-product, vendor/wave/configs/common.mk)
 # Inherit from vayu device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+
+# Boot animation size
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := xiaomi
