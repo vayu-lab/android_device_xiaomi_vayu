@@ -54,7 +54,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a9
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_HW_DISK_ENCRYPTION_PERF := true
 
-BOARD_SECCOMP_POLICY := device/qcom/$(TARGET_BOARD_PLATFORM)/seccomp
+BOARD_SECCOMP_POLICY := device/xiaomi/$(TARGET_BOARD_PLATFORM)/seccomp
 
 TARGET_NO_BOOTLOADER := false
 TARGET_USES_UEFI := true
@@ -100,16 +100,16 @@ endif
 ENABLE_VENDOR_IMAGE := true
 ifeq ($(ENABLE_VENDOR_IMAGE), true)
 ifneq ($(strip $(BOARD_DYNAMIC_PARTITION_ENABLE)),true)
-TARGET_RECOVERY_FSTAB := device/qcom/msmnile/recovery_vendor_variant.fstab
+TARGET_RECOVERY_FSTAB := device/xiaomi/vayu/recovery_vendor_variant.fstab
 else
-TARGET_RECOVERY_FSTAB := device/qcom/msmnile/recovery_dynamic_partition.fstab
+TARGET_RECOVERY_FSTAB := device/xiaomi/vayu/recovery_dynamic_partition.fstab
 endif
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_USERIMAGES_USE_EXT4 := true
 else
-TARGET_RECOVERY_FSTAB := device/qcom/msmnile/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/xiaomi/vayu/recovery.fstab
 endif
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x06000000
@@ -135,7 +135,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8150
 TARGET_KERNEL_CONFIG := vendor/vayu_defconfig
 
-BOARD_EGL_CFG := device/qcom/$(TARGET_BOARD_PLATFORM)/egl.cfg
+BOARD_EGL_CFG := device/xiaomi/$(TARGET_BOARD_PLATFORM)/egl.cfg
 
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
@@ -220,7 +220,7 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # wlan specific
 #----------------------------------------------------------------------
 ifeq ($(strip $(BOARD_HAS_QCOM_WLAN)),true)
-include device/qcom/wlan/msmnile/BoardConfigWlan.mk
+include device/xiaomi/wlan/msmnile/BoardConfigWlan.mk
 endif
 
 ifeq ($(ENABLE_VENDOR_IMAGE), false)
@@ -253,4 +253,4 @@ Q_BU_DISABLE_MODULE := true
 -include vendor/qcom/defs/board-defs/vendor/*.mk
 #################################################################################
 
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/xiaomi/sepolicy_vndr/SEPolicy.mk
