@@ -162,6 +162,10 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 DEVICE_PACKAGE_OVERLAYS += device/xiaomi/vayu/overlay
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_vayu \
+	vendor.xiaomi.hardware.fingerprintextension@1.0
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE:=true
 TARGET_MOUNT_POINTS_SYMLINKS := false
