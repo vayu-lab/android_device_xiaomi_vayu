@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_vayu \
 	vendor.xiaomi.hardware.fingerprintextension@1.0
 
+# Touchfeature
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
+
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE:=true
 TARGET_MOUNT_POINTS_SYMLINKS := false
 TARGET_USES_MKE2FS := true
