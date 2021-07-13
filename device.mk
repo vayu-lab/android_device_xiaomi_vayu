@@ -280,10 +280,6 @@ PRODUCT_BOOT_JARS += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.vayu
-
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service.vayu
 	
 # Fingerprint
 PRODUCT_PACKAGES += \
