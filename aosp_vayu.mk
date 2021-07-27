@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The WaveOS Project
+# Copyright (C) 2021 The AospExtended Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Wave stuff.
-$(call inherit-product, vendor/wave/configs/common.mk)
+# Inherit some common AospExtended stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := wave_vayu
+PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
