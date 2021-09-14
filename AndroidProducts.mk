@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_vayu.mk
+    $(LOCAL_DIR)/p404_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_vayu-user \
-    wave_vayu-userdebug \
-    wave_vayu-eng
+    p404_vayu-user \
+    p404_vayu-userdebug \
+    p404_vayu-eng
